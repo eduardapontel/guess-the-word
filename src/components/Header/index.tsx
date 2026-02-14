@@ -10,7 +10,7 @@ type Props = {
 
 export function Header({ current, max, onRestart }: Props) {
     return (
-        <div className={styles.container}>
+        <div className={styles.header}>
             <img src={logo} alt="Logo" />
 
             <header>
