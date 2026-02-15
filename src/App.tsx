@@ -5,6 +5,7 @@ import { Input } from './components/Input';
 import { Button } from './components/Button';
 import { Letter } from './components/Letter';
 import { Header } from './components/Header';
+import { UsedLetters } from './components/UsedLetters';
 
 export default function App() {
     function handleRestart() {
@@ -23,12 +24,14 @@ export default function App() {
                     <Letter value="T" />
                 </div>
 
-                <h4>Guess</h4>
+                <h4>Make a guess</h4>
 
                 <div className={styles.guess}>
                     <Input autoFocus maxLength={1} placeholder="?" />
                     <Button title="Confirm" />
                 </div>
+
+                <UsedLetters />
             </main>
         </div>
     );
