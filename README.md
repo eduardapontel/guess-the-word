@@ -94,7 +94,8 @@ npm run dev
 ```
 
 3. Open in Browser
-By default, the project will run at:
+
+    By default, the project will run at:
 [http://localhost:5173](http://localhost:5173)
 
 <br> 
